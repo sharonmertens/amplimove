@@ -1,0 +1,63 @@
+body {
+  background: #000;
+  color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  color: #ff0050;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+nav a.active, nav a:hover {
+  color: #ff0050;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(to bottom, #111, #000);
+}
+
+.cta-btn {
+  padding: 15px 30px;
+  background: #ff0050;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.workout-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.workout-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.profile-container {
+  padding: 40px;
+}
