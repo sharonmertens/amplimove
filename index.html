@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AmpliMove | Train With Purpose</title>
   <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Amplitude Autocapture + Session Replay -->
+  <script src="https://cdn.amplitude.com/script/6346197fe6ea814dcab926acbda632cf.js"></script>
+  <script>
+    // Optional: Track homepage load
+    window.amplitude.track("Page Loaded", { page: "Home" });
+  </script>
+  
   <script src="js/amplitude.js" defer></script>
   <script src="js/app.js" defer></script>
 </head>
